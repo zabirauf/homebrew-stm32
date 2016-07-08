@@ -1,9 +1,9 @@
 class ArmNoneEabiGcc < Formula
   desc "GCC for embedded ARM processors"
   homepage "https://launchpad.net/gcc-arm-embedded"
-  url "https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q3-update/+download/gcc-arm-none-eabi-4_9-2015q3-20150921-mac.tar.bz2"
-  version "20150921"
-  sha256 "a6353db31face60c2091c2c84c902fc4d566decd1aa04884cd822c383d13c9fa"
+  url "https://launchpad.net/gcc-arm-embedded/5.0/5-2016-q2-update/+download/gcc-arm-none-eabi-5_4-2016q2-20160622-mac.tar.bz2"
+  version "20160622"
+  sha256 "e175a0eb7ee312013d9078a5031a14bf14dff82c7e697549f04b22e6084264c8"
 
   def install
     cp_r ["arm-none-eabi", "bin", "lib", "share"], "#{prefix}/"
