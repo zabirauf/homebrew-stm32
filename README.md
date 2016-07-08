@@ -3,7 +3,7 @@ homebrew-stm32
 
 1. Install homebrew if you haven't already: http://brew.sh/
 
-2. Tap this repo: `brew tap nitsky/stm32`
+2. Tap this repo: `brew tap zabirauf/homebrew-stm32`
 
 3. Install gcc for ARM: `brew install arm-none-eabi-gcc`
 
